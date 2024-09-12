@@ -1,0 +1,110 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+/*---------------------------------------container classes start--------------------------------- */
+.container{
+    border: 1px solid blue;
+    max-width:1320px;
+    margin: auto;
+}
+.container-fluid{
+    width:100%;
+    margin:auto;                                                                    auto;
+    border: 1px solid  red;
+
+}
+/* -----------------------------------------text classes start------------------------------------------------------------------------- */
+
+.t-white{
+    color:white;
+}
+.t-black{
+    color:black;
+}
+.t-center{
+    text-align:center;
+}
+.f-30{
+    font-size:30px;
+}
+ /* -----------------------------------------text classes end------------------------------------------------------------------------- */
+
+
+ /* -----------------------------------------flex classes start------------------------------------------------------------------------- */
+
+ .d-flex{
+    display:flex;
+ }
+
+ .justify-center{
+    justify-content: center !important;
+ }
+ .row{
+    display:flex;
+    /* justify-content: start; */
+    flex-wrap: wrap;
+    width:100%;
+ }
+ /* -----------------------------------------flex classes end------------------------------------------------------------------------- */
+
+/* ------------------------------------------- border classes start------------------------------------------------------------------ */
+.shadow{
+    box-shadow:1px 1px 4px black;
+}
+.radius-10{
+    border-radius: 10px;
+}
+/* -----------------------------------------border classes start------------------------------------------------------------------------- */
+.border-red{
+    border:1px solid red;
+}
+.border-green{
+    border:1px solid green;
+}
+.border-blue{
+    border:1px solid blue;
+
+}
+.border-orange{
+    border:1px solid orange;
+}
+.border-gray{
+    border:1px solid gray;
+}
+.border-black{
+    border:1px sollid black;
+}
+/* -----------------------------------------height classes start------------------------------------------------------------------------- */
+.h-50{
+    height:50px;
+}
+.h-100{
+    height:100px;
+}
+.h-200{
+    height:200px;
+}
+.h-300{
+    height:300px;
+}
+.h-400{
+    height:400px;
+}
+/* ------------------padding classs */
+.p-10{
+    padding:10px;
+}
+.m-60{
+    margin-top: 60px;
+}
+.shadow{
+    box-shadow:1px 1px 4px black;
+}
+.radius-10{
+    border-radius: 10px;
+}
+.radius-20{
+    border-radius: 20px;
+}
