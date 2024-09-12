@@ -88,6 +88,9 @@
     .w-xl-8{
         width:80%;
     }
+    .w-xl-18{
+        width:18.5%;
+    }
 
 }
 @media(min-width:1400px){
